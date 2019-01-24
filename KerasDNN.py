@@ -35,4 +35,4 @@ class KerasDNN:
     
     def run_keras_model(self, epochs=1000, batch_size=100):
         self.hist = self.model.fit(self.X_train, self.y_train, epochs=epochs, batch_size=batch_size,
-                                   validation_data=(self.X_test, self.y_test), verbose=2)
+                                   validation_data=(self.X_test, self.y_test), verbose=0)

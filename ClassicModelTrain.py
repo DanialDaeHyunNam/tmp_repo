@@ -189,6 +189,7 @@ class ClassicModelTrain:
                                 dtrain=dtrain, 
                                 num_boost_round=num_boost_round, 
                                 evals=evals,
+                                verbose_eval=False,
                                 early_stopping_rounds=10)
                 return xgb
             
